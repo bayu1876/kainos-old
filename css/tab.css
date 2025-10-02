@@ -1,0 +1,85 @@
+/* 
+    Document   : tab
+    Created on : Mar 15, 2010, 6:14:54 PM
+    Author     : nakamura
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*************** Content Box ***************/
+
+.content-box {
+    border: 1px solid #ccc;
+    margin: 0 0 20px 0;
+    background: #fff;
+    width: 840px;
+    /*width: 960px;*/
+}
+
+.content-box-header {
+    background: #e5e5e5 url('../images/dashboard/bg-content-box.gif') top left repeat-x;
+    margin-top: 1px;
+    height: 30px;
+    
+}
+
+.content-box-header h3 {
+    padding: 9px 15px 10px;
+    float: left;
+}
+
+ul.content-box-tabs {
+    float: right;
+    padding: 0 5px 0 0 !important;
+    margin: 0 !important;
+}
+
+ul.content-box-tabs li {
+    float: left;
+    margin: 0;
+    padding: 0 !important;
+    background-image: none !important;
+}
+
+ul.content-box-tabs li a {
+    color: #333;
+    padding: 7px 10px;
+    display: block;
+    margin: 1px;
+    border-bottom: 0;
+}
+
+ul.content-box-tabs li a:hover {
+    color: #dd3c10;
+}
+
+ul.content-box-tabs li a.current {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    margin: 0;
+}
+
+.content-box-content {
+    padding: 20px;
+    font-size: 13px;
+    border-top: 1px solid #ccc;
+}
+
+.content-box-content p { 
+    font-size: 11px;
+    font-family: Tahoma;
+    line-height:35px;
+    font-weight: bold;
+}
+.content-box-content select {
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+ 

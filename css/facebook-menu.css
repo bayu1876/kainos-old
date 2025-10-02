@@ -1,0 +1,105 @@
+#top {
+  width: 100%;
+  height: 40px;
+  background: #3b5998;
+}
+
+.inside {
+  width: 98%;
+  margin-left: 5px;
+  /*margin: 0 auto;*/
+}
+
+#logo {
+  float: left;
+  width: 110px;
+  height: 40px;
+}
+
+#nav_facebook {
+  float: left;
+  /*width: 880px;*/
+  width: 780px;
+  height: 30px;
+  margin: 9px 0 0 0;
+  background: #627aad;
+  border: 1px solid #1d2b49;
+  border-bottom: none;
+}
+
+#showuser {
+  float: right;
+  
+  height: 30px;
+}
+
+#menu_facebook {
+  float: left;
+  /*width: 570px;*/
+   
+   
+  height: 30px;
+}
+
+
+/* NAV menu_facebook */
+
+#menu_facebook ul.nav_facebook {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu_facebook ul.nav_facebook li {
+  display: inline;
+}
+
+#menu_facebook ul.nav_facebook li a  {
+  float: left;
+  display: block;
+  font-size: 0.85em;
+  font-weight: bold;
+  line-height: 29px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 12px;
+}
+
+#menu_facebook ul.nav_facebook li a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #6d86b7;
+}
+
+
+
+#brmenu {
+  width: 100%;
+  height: 20px;
+}
+
+
+ul#nav_fb{font: 90%/1.8 Verdena,Tahoma,sans-serif}
+ul#nav_fb,ul#nav_fb li,ul#nav_fb ul,ul#nav_fb ul li{margin:0;padding:0;list-style-type:none}
+ul#nav_fb{height:29px;line-height:29px;margin-left:2px;
+    color: #fff}
+ul#nav_fb a{display:block;padding: 0 10px;text-decoration: none; color:#FFF}
+ul#nav_fb li{float: left;position: relative}
+ul#nav_fb li li{float: none;line-height: 22px;
+    display:block !important;display: inline; /*IE*/}
+ul#nav_fb ul{position: absolute;top: 29px;left: -9999px;
+    width: 12em;background: #fff;color: #3B5998}
+ul#nav_fb ul{padding: 7px 0;border: 1px solid #3B5998}
+ul#nav_fb ul,ul#nav_fb li li a{background-color: #FFF;color: #3B5998}
+ul#nav_fb li:hover,ul#nav_fb a:hover{background-color: #5C75AA;color: #FFF}
+ul#nav_fb li:hover ul,ul#nav_fb li.sfhover ul{left: -1px;z-index: 100}
+
+/* dibawah ini kalo pake icon */
+
+ul#nav_fb li.sep{height: 34px;background: #fff}
+ul#nav_fb li.sep span{display: block;height: 1px;overflow: hidden;
+    margin: 6px 5px 0;background: #CCC}
+ul#nav_fb li li.icon a{padding-left: 24px}
+ul#nav_fb li li.property a{background: url(../images/icon/property.png) no-repeat 3px 3px}
